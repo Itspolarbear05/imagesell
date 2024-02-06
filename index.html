@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Alex Photography</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Alex Photography</h1>
+        <a href="#" id="signupLink">Sign Up</a>
+    </div>
+
+    <!-- Signup Form Section -->
+    <div class="signup-section" id="signupSection">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <!-- Form fields here -->
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <!-- Image Grid Section -->
+    <div class="image-grid" id="imageGrid">
+        <!-- Rectangular boxes will be dynamically added here using JavaScript -->
+    </div>
+
+    <!-- Page Navigation -->
+    <div class="page-navigation">
+        <a href="#" class="page-link" onclick="showPage('page1')">Page 1</a>
+        <a href="#" class="page-link" onclick="showPage('page2')">Page 2</a>
+        <!-- Add more page links as needed -->
+    </div>
+
+    <!-- Container to dynamically load content -->
+    <div id="contentContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
